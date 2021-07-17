@@ -1,3 +1,29 @@
+# Personal Webpage Build
+
+I am currently in the process of creating a React Website on which i can display previous projects, skills and general information about me.
+
+I began this project as i've been interested to set up my own server and gain some experience around Back-end programming content.
+
+The website is currently hosted on https://www.jackbrowne.uk
+
+Page is currently hosted on a server which i've set up using a Bitnami LAMP server, created using AWS.
+
+Currently the server requires me to manually upload changes, so when significant changes are made, the site will be updated.
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
