@@ -3,9 +3,11 @@ import './hero.css'
 
 const Hero = () => {
     return ( 
-        <img className="hero-image" src={hero_image}></img>
-
-
+        <div className="hero-container">
+            <img className="hero-image" src={hero_image}></img>
+            <h1 className="hero-h1">Title Here</h1>
+            <h3 className="hero-h3">H3 lower level here</h3>
+        </div>
 
      );
 }

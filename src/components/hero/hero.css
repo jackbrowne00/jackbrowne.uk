@@ -1,4 +1,17 @@
+.hero-container{
+    position: relative;
+    text-align: center;
+    margin-top: 8vh;
+}
+
+.hero-h1{
+    position: absolute;
+}
+
+.hero-h3{
+    position: absolute;
+}
+
 .hero-image{
     width: 100vw;
-    padding-bottom: 500px;
 }

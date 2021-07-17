@@ -2,7 +2,7 @@ import './navbar.css'
 
 const NavBar = () => {
     return (
-
+        <div className="nav-container">
         <nav className='menu'>
         <input type='checkbox' id='responsive-menu'/><label></label>
         <li id='logo'><a>Jack Browne</a></li>
@@ -19,7 +19,7 @@ const NavBar = () => {
             <li><a href='http://'>Home</a></li>
         </ul>
         </nav>
-
+        </div>
      );
 }
  
