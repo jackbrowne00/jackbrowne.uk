@@ -2,7 +2,6 @@ html{
 	background-color: #3d3d3d;
 }
 .menu {
-	overflow: hidden;
 	position: fixed;
 	top: 0;
 	height: 8vh;
