@@ -1,7 +1,13 @@
 .hero-container{
     position: relative;
+    height: 100vh;
     text-align: center;
     margin-top: 8vh;
+    background-image: webpage_hero_image.jpg;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 .hero-h1{

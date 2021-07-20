@@ -1,4 +1,5 @@
 import './navbar.css'
+import hero_image from '../../webpage_hero_image.jpg'
 
 const NavBar = () => {
     return (

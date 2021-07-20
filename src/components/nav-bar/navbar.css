@@ -1,12 +1,9 @@
-html{
-	background-color: #3d3d3d;
-}
 .menu {
 	position: fixed;
 	top: 0;
 	height: 8vh;
     width: 100%;
-	background: #3d3d3d;
+	background: #2a2a2a;
 	color: orange;
 	border-bottom: solid thick;
     border-image-source: linear-gradient(to right,rgb(223, 126, 0),#9e066b 41.07%,#61cbd4 76.05%);

@@ -4,7 +4,7 @@ import './TextBlock.css'
 const TextBlock = () => {
     return ( 
 
-        <div></div>
+        <div className="text-block"></div>
 
 
 
