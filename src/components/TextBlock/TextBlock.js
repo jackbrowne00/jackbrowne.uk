@@ -5,13 +5,6 @@ const TextBlock = () => {
     return ( 
 
         <div className="text-block"></div>
-
-
-
-
-
-
-
      );
 }
  

@@ -1,21 +1,33 @@
+
 .hero-container{
     position: relative;
     height: 100vh;
     text-align: center;
     margin-top: 8vh;
-    background-image: webpage_hero_image.jpg;
+    background-image: url('./webpage_hero_image.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
 .hero-h1{
+    text-align: center;
     position: absolute;
+    top: 30%;
+    left: 15%;
+    transform: translate(0);
+    color: white;
+    font-size: 64px;
 }
 
 .hero-h3{
+    text-align: center;
     position: absolute;
+    top: 45%;
+    left: 15%;
+    transform: translate(0);
+    color: white;
+    font-size: 36px;
 }
 
 .hero-image{
