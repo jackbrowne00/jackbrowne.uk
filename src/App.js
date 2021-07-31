@@ -3,12 +3,7 @@ import Home from './components/Home/Home'
 import Contact from './components/Contact/Contact'
 import Projects from './components/Projects/Projects'
 import AboutMe from './components/AboutMe/AboutMe'
-
-
-import NavBar from './components/nav-bar/NavBar'
 import './components/nav-bar/navbar.css'
-import Hero from './components/hero/hero'
-import TextBlock from './components/TextBlock/TextBlock'
 import {
   BrowserRouter as Router,
   Switch,
@@ -20,13 +15,8 @@ function App() {
   return (
     <div className="App">
       {/* <NavBar/> */}
-      <Hero/>
-      <TextBlock/>
-
-
-
-
       <Router>
+
         <div className="nav-container">
           <nav className='menu'>
             <li id='logo'>
@@ -40,7 +30,6 @@ function App() {
                   <Link to="/projects">Projects</Link>
                 </li>
 
-
                 <ul class='sub-menus'>
                   <li>
                     <Link to="/blackjack">Blackjack</Link>
@@ -53,9 +42,8 @@ function App() {
                   </li>
                 </ul>
 
-
                 <li>
-                  <Link to="/blackjack">About me</Link>
+                  <Link to="/about">About me</Link>
                 </li>
                 <li>
                   <Link to="/">Home</Link>
@@ -64,13 +52,7 @@ function App() {
           </nav>
         </div>
 
-
-
       <Switch>
-
-        <Route path="/">
-          <Home/>
-        </Route>
 
         <Route path="/contact">
           <Contact/>
@@ -80,19 +62,17 @@ function App() {
           <Projects/>
         </Route>
 
-        <Route path="/aboutme">
+        <Route path="/about">
           <AboutMe/>
+        </Route>
+
+        <Route path="/">
+          <Home/>
         </Route>
 
       </Switch>
 
-
-
       </Router>
-
-
-
-
 
     </div>
   );
