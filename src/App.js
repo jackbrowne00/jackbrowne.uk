@@ -1,10 +1,16 @@
 import './App.css';
+import Home from './components/Home/Home'
+import Contact from './components/Contact/Contact'
+import Projects from './components/Projects/Projects'
+import AboutMe from './components/AboutMe/AboutMe'
+
+
 import NavBar from './components/nav-bar/NavBar'
 import './components/nav-bar/navbar.css'
 import Hero from './components/hero/hero'
 import TextBlock from './components/TextBlock/TextBlock'
 import {
-  BrowseRouter as Router,
+  BrowserRouter as Router,
   Switch,
   Route,
   Link
@@ -49,7 +55,7 @@ function App() {
 
 
                 <li>
-                  <Link to="/">About me</Link>
+                  <Link to="/blackjack">About me</Link>
                 </li>
                 <li>
                   <Link to="/">Home</Link>
@@ -57,6 +63,31 @@ function App() {
             </ul>
           </nav>
         </div>
+
+
+
+      <Switch>
+
+        <Route path="/">
+          <Home/>
+        </Route>
+
+        <Route path="/contact">
+          <Contact/>
+        </Route>
+
+        <Route path="/projects">
+          <Projects/>
+        </Route>
+
+        <Route path="/aboutme">
+          <AboutMe/>
+        </Route>
+
+      </Switch>
+
+
+
       </Router>
 
 
