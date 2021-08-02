@@ -14,31 +14,29 @@ import {
 function App() {
   return (
     <div className="App">
-      {/* <NavBar/> */}
       <Router>
-
-        <div className="nav-container">
+        <div className="navContainer">
           <nav className='menu'>
             <li id='logo'>
             <Link to="/">Jack Browne</Link>
             </li>
-            <ul className='nav-buttons'>
+            <ul className='navButtons'>
                 <li>
                   <Link to="/contact">Contact</Link>
                 </li>
-                <li class='dropdown-arrow'>
-                  <Link to="/projects">Projects</Link>
+                <li>
+                  <Link to="/projects"><a className='dropdownArrow'>Projects</a></Link>
                 </li>
 
-                <ul class='sub-menus'>
+                <ul className='subMenus'>
                   <li>
-                    <Link to="/blackjack">Blackjack</Link>
+                    <Link to="/blackjack"><a>Blackjack</a></Link>
                   </li>
                   <li>
-                    <Link to="/growpro">GrowPro React</Link>
+                    <Link to="/growpro"><a>GrowPro React</a></Link>
                   </li>
                   <li>
-                    <Link to="/recipegenerator">Recipe Generator</Link>
+                    <Link to="/recipegenerator"><a>Recipe Generator</a></Link>
                   </li>
                 </ul>
 
@@ -68,6 +66,9 @@ function App() {
 
         <Route path="/">
           <Home/>
+        </Route>
+
+        <Route path="/blackjack">
         </Route>
 
       </Switch>
