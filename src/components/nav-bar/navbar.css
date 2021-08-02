@@ -10,14 +10,12 @@
     border-image-slice: 60 30;
 	z-index: 99;
 }
-
 #logo{
     float: left;
     display: block;
     position: relative;
 	padding-left: 20px;
 }
-
 .menu ul, .menu li {
 	margin: 0 auto;
 	padding: 0;
@@ -39,7 +37,7 @@
 	color: white;
 	font-size: 16px;
 }
-.menu a.dropdown-arrow:after {
+.menu a.dropdownArrow:after {
 	content: "\25BE";
 	margin-left: 5px;
 }
@@ -47,28 +45,7 @@
 	color: white;
 	background: #555555;
 }
-.menu input {
-	display: none;
-	margin: 0;
-	padding: 0;
-	height: 10vh;
-	width: 100%;
-	opacity: 0;
-	cursor: pointer
-}
-.menu label {
-	display: none;
-	line-height: 10svh;
-	text-align: center;
-	position: absolute;
-	left: 35px
-}
-.menu label:before {
-	font-size: 1.6em;
-	content: "\2261"; 
-	margin-left: 20px;
-}
-.menu ul.sub-menus{
+.menu ul.subMenus{
 	height: auto;
 	overflow: hidden;
 	width: 170px;
@@ -77,18 +54,18 @@
 	z-index: 99;
 	display: none;
 }
-.menu ul.sub-menus li {
+.menu ul.subMenus li {
 	display: block;
 	width: 100%;
 }
-.menu ul.sub-menus a {
+.menu ul.subMenus a {
 	color: white;
 	font-size: 16px;
 }
-.menu li:hover ul.sub-menus {
-	display: block
+.menu li:hover ul.subMenus {
+	display: block;
 }
-.menu ul.sub-menus a:hover{
+.menu ul.subMenus a:hover{
 	background: #57b4bd;
 	color: white;
 }
@@ -96,8 +73,8 @@
 	.menu {position:relative}
 	.menu ul {background:#111;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none}
     .logo {position:relative;padding-left:50px;}
-	.menu ul.sub-menus {width:100%;position:static;}
-	.menu ul.sub-menus a {padding-left:30px;}
+	.menu ul.subMenus {width:100%;position:static;}
+	.menu ul.subMenus a {padding-left:30px;}
 	.menu li {display:block;float:none;width:auto;}
 	.menu input, #menu label {position:absolute;top:0;left:0;display:block}
 	.menu input {z-index:4}
