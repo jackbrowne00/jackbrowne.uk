@@ -68,9 +68,6 @@ function App() {
           <Home/>
         </Route>
 
-        <Route path="/blackjack">
-        </Route>
-
       </Switch>
 
       </Router>

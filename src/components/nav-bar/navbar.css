@@ -1,3 +1,8 @@
+.navContainer{
+	position: relative;
+	height: 10vh;
+	width: 100%;
+}
 .menu {
 	position: fixed;
 	top: 0;
@@ -15,6 +20,7 @@
     display: block;
     position: relative;
 	padding-left: 20px;
+	pointer-events: none;
 }
 .menu ul, .menu li {
 	margin: 0 auto;
@@ -43,7 +49,8 @@
 }
 .menu li a:hover {
 	color: white;
-	background: #555555;
+	background: #61cbd4;
+	z-index: 90;
 }
 .menu ul.subMenus{
 	height: auto;
@@ -51,7 +58,7 @@
 	width: 170px;
 	background: #61cbd4;
 	position: absolute;
-	z-index: 99;
+	z-index: 90;
 	display: none;
 }
 .menu ul.subMenus li {
