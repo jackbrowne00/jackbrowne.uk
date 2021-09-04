@@ -6,9 +6,6 @@ const Home = () => {
     return (
         <div>
             <Hero/>
-            <TextBlock header="Jack"/>
-            <TextBlock header="Browne"/>
-            <TextBlock header="hello there"/>
         </div>
     )
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
+import TextBlock from '../Home/TextBlock/TextBlock'
 import ProjectCard from './ProjectCard/ProjectCard'
 import './Projects.css'
 
@@ -13,6 +14,7 @@ const Projects = () => {
             <Container className="projectsCardContainer">
                 <ProjectCard/>
             </Container>
+            <TextBlock/>
         </div>
     )
 }
